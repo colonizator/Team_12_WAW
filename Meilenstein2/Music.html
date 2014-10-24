@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Music</title>
+		<link href = "CSS/style.css" type = "text/css" rel = "stylesheet">
+	</head>	
+	
+	<img src = "Image/Team_12.jpg" width = "200" align = "right" />
+	<h1 align = "center" style="font-family:Verdana"><font size = "24"><b>Music</b></font></h1>
+	<a href="Film.html">( zurück )</a>
+	
+	<div>
+		<label for = "interpreter" id ="interpr_text">Interpreter</label>
+		<input type = "text" id = "interpr_feld" size = "40" name = "interpreter"/>
+		
+		<label for = "albumtitel" id ="albumtitel_text">Albumtitel</label>
+		<input type = "text" id = "albumtitel_feld" size = "40" name = "albumtitel"/>
+		
+		<label for = "erscheinungsjahr" id ="erscheinungsjahr_text" >Erscheinungsjahr</label>
+		<input type = "text" id = "erscheinungsjahr_feld" size = "40" name = "musicerscheinungsjahr"/>
+		
+		<label for = "songs" id ="songs_text">Songs</label>
+		<textarea  id = "songs_feld" name = "songs" cols="30" rows="3"></textarea>
+		
+		<label for = "muscigenre" id ="muscigenre_text">Genre</label>
+		<select name = "muscigenre" id = "muscigenre_down" size = "1">
+		<option value = "punk" selected = "selected">Punk</option>
+		<option value = "metal">Metal</option>
+		<option value = "pop">Pop</option>
+		<option value = "soul">Soul</option>
+		<option value = "hipHop">HipHop</option>
+		<option value = "techno">Techno</option>
+		</select>
+		
+		<label for = "musicfavorit" id ="musicfavorit_text" >als Favorit</br> markieren</label>
+		<input type = "checkbox" id = "musicfavorit_chbox" value ="musicfavorit" name = "musicfavorit"/>
+		
+		<button type = "submit" id = "knopf"  name = "musikabschicken" value = "Album eintragen">Album eintragen</button>
+	
+	</div>
+	
+</html>
