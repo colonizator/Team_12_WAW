@@ -1,0 +1,77 @@
+#filmtitel_text { position: absolute; top: 130px; left: 70px; }
+
+a{ position: absolute; top: 50px; left: 680px; }  
+a{ color: white;}
+
+#interpr_text, #regie_text { position: absolute; top: 170px; left: 70px; }
+
+#albumtitel_text, #drehbuch_text { position: absolute; top: 210px; left: 70px; }
+
+#erscheinungsjahr_text { position: absolute; top: 250px; left: 70px; }
+
+#songs_text, #schauspieler_text { position: absolute; top: 310px; left: 70px; }
+
+#muscigenre_text, #filmgenre_text { position: absolute; top: 400px; left: 70px; }
+
+#musicfavorit_text, #filmfavorit_text { position: absolute; top: 460px; left: 70px; }
+
+#filmtitel_feld{ position: absolute; top: 130px; left: 250px; }
+
+#interpr_feld , #regie_feld{ position: absolute; top: 170px; left: 250px; }
+
+#albumtitel_feld, #drehbuch_feld{ position: absolute; top: 210px; left: 250px; }
+
+#erscheinungsjahr_feld{ position: absolute; top: 250px; left: 250px; }
+
+#songs_feld, #schauspieler_feld{ position: absolute; top: 310px; left: 250px; }
+
+#muscigenre_down, #filmgenre_down{ position: absolute; top: 400px; left: 250px; }
+
+#musicfavorit_chbox, #filmfavorit_chbox{ position: absolute; top: 460px; left: 250px; }
+
+#knopf{ position: absolute; top: 520px; left: 250px; }
+
+label { font-size: 16px; font-family: Arial; font-weight: bold; }
+html { background-color: #1A205E; }
+
+h1, label { color: #FFFFFF; }
+
+
+p{ position: absolute; top: 350px; left: 450px; } 
+.boxed_left{
+	width:400px;
+	height: 200px;
+	border-top: 8px solid;
+	border-bottom: 8px solid;
+	border-right: 8px solid;
+	border-left: 8px solid;
+	background-color: RGB(165,169,230);
+	border-color:white;
+	font-size: 48;
+	color: black;
+	font-family: Arial;
+	font-weight: bolder;
+	vertical-align: bottom;
+	text-align: center;
+	display:inline-block 
+	line-hight: 100px;
+}
+
+.boxed_right{
+	width:400px;
+	height: 200px;
+	border-top: 8px solid;
+	border-bottom: 8px solid;
+	border-right: 8px solid;
+	border-left: 8px solid;
+	background-color: RGB(165,169,230);
+	border-color:white;
+	font-size: 48;
+	color: black;
+	font-family: Arial;
+	font-weight: bolder;
+	vertical-align: bottom;
+	text-align: center;
+	display:inline-block 
+	line-hight: 100px;
+}
