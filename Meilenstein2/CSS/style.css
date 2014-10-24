@@ -3,6 +3,8 @@
 a{ position: absolute; top: 50px; left: 680px; }  
 a{ color: white;}
 
+img{ float: right; } 
+
 #interpr_text, #regie_text { position: absolute; top: 170px; left: 70px; }
 
 #albumtitel_text, #drehbuch_text { position: absolute; top: 210px; left: 70px; }
@@ -35,6 +37,5 @@ label { font-size: 16px; font-family: Arial; font-weight: bold; }
 html { background-color: #1A205E; }
 
 h1, label { color: #FFFFFF; }
-
 
 p{ position: absolute; top: 350px; left: 450px; } 
