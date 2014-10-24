@@ -8,37 +8,38 @@
 	<h1 align = "center" style="font-family:Verdana"><font size = "24"><b>Film</b></font></h1>
 	<a href="home.html">( zurück )</a>
 	
-	<div>
-		<label for = "filmtitel" id ="filmtitel_text">Filmtitel</label>
-		<input type = "text" id = "filmtitel_feld" size = "40" name = "filmtitel"/>
-	
-		<label for = "regie" id ="regie_text">Regie</label>
-		<input type = "text" id = "regie_feld" size = "40" name = "regie"/>
+	<form action="http://martinakraus.net/immdb.php" method="get">
+		<div>
+			<label for = "filmtitel" id ="filmtitel_text">Filmtitel</label>
+			<input type = "text" id = "filmtitel_feld" size = "40" name = "filmtitel"/>
 		
-		<label for = "drehbuch" id ="drehbuch_text">Drehbuch</label>
-		<input type = "text" id = "drehbuch_feld" size = "40" name = "drehbuch"/>
+			<label for = "regie" id ="regie_text">Regie</label>
+			<input type = "text" id = "regie_feld" size = "40" name = "regie"/>
+			
+			<label for = "drehbuch" id ="drehbuch_text">Drehbuch</label>
+			<input type = "text" id = "drehbuch_feld" size = "40" name = "drehbuch"/>
+			
+			<label for = "erscheinungsjahr" id ="erscheinungsjahr_text" >Erscheinungsjahr</label>
+			<input type = "text" id = "erscheinungsjahr_feld" size = "40" name = "filmerscheinungsjahr"/>
+			
+			<label for = "schauspieler" id ="schauspieler_text">Schauspieler</label>
+			<textarea  id = "schauspieler_feld" name = "schauspieler" cols="30" rows="3"></textarea>
+			
+			<label for = "filmgenre" id ="filmgenre_text">Genre</label>
+			<select name = "filmgenre" id = "filmgenre_down" size = "1">
+			<option value = "horror" selected = "selected">Horror</option>
+			<option value = "psycho">Psycho</option>
+			<option value = "krimi">Krimi</option>
+			<option value = "doku">Doku</option>
+			<option value = "komoedie">Komödie</option>
+			<option value = "romanze">Romanze</option>
+			</select>
+			
+			<label for = "filmfavorit" id ="filmfavorit_text" >als Favorit</br> markieren</label>
+			<input type = "checkbox" id = "filmfavorit_chbox" value ="filmfavorit" name = "filmfavorit"/>
+			
+			<button type = "submit" id = "knopf"  name = "filmabschicken" value = "Film eintragen">Film eintragen</button>
 		
-		<label for = "erscheinungsjahr" id ="erscheinungsjahr_text" >Erscheinungsjahr</label>
-		<input type = "text" id = "erscheinungsjahr_feld" size = "40" name = "filmerscheinungsjahr"/>
-		
-		<label for = "schauspieler" id ="schauspieler_text">Schauspieler</label>
-		<textarea  id = "schauspieler_feld" name = "schauspieler" cols="30" rows="3"></textarea>
-		
-		<label for = "filmgenre" id ="filmgenre_text">Genre</label>
-		<select name = "filmgenre" id = "filmgenre_down" size = "1">
-		<option value = "horror" selected = "selected">Horror</option>
-		<option value = "psycho">Psycho</option>
-		<option value = "krimi">Krimi</option>
-		<option value = "doku">Doku</option>
-		<option value = "komoedie">Komödie</option>
-		<option value = "romanze">Romanze</option>
-		</select>
-		
-		<label for = "filmfavorit" id ="filmfavorit_text" >als Favorit</br> markieren</label>
-		<input type = "checkbox" id = "filmfavorit_chbox" value ="filmfavorit" name = "filmfavorit"/>
-		
-		<button type = "submit" id = "knopf"  name = "filmabschicken" value = "Film eintragen">Film eintragen</button>
-	
-	</div>
-	
+		</div>
+	</form>
 </html>
