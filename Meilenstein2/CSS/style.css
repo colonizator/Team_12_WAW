@@ -1,7 +1,12 @@
 #filmtitel_text { position: absolute; top: 130px; left: 70px; }
 
-a{ position: absolute; top: 50px; left: 680px; }  
-a{ color: white;}
+body { font-family: Arial, Helvetica, sans-serif; text-align: center;}
+
+h1 { font-size: 48px; display: inline-block;}
+
+a{ color: white; text-decoration: none;}  
+
+img{ position: absolute; top: 10px; right: 10px;}
 
 #interpr_text, #regie_text { position: absolute; top: 170px; left: 70px; }
 
