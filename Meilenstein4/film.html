@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Film</title>
+        <link href="CSS/home.css" type="text/css" rel="stylesheet"/>
+        <meta charset="UTF-8"/>
+    </head>	
+    <body>
+        <img src="Image/Team_12.jpg" width="200" alt="Platzhalter für Gruppenname und / oder Logo"/>
+        <h1>Film<a href="home.html">(zurück)</a></h1>
+        <nav>
+            <a href="favoriten.html" class="button">Favoriten</a>
+        </nav>
+        <form action="http://martinakraus.net/immdb.php" method="get">
+            <ul>
+                <li>
+                    <label for = "titel">Filmtitel</label>
+                    <input type = "text" id = "titel" size = "40" name = "filmtitel"/>
+                </li>
+                <li>
+                    <label for = "regie">Regie</label>
+                    <input type = "text" id = "regie" size = "40" name = "regie"/>
+                </li>
+                <li>
+                    <label for = "drehbuch">Drehbuch</label>
+                    <input type = "text" id = "drehbuch" size = "40" name = "drehbuch"/>
+                </li>
+                <li>
+                    <label for = "year">Erscheinungsjahr</label>
+                    <input type = "text" id = "year" size = "40" name = "filmerscheinungsjahr"/>
+                </li>
+                <li>
+                    <label for = "schauspieler">Schauspieler</label>
+                    <textarea  id = "schauspieler" name = "schauspieler" cols="30" rows="3"></textarea>
+                </li>
+                <li>
+                    <label for = "genre">Genre</label>
+                    <select name = "filmgenre" id = "genre" size = "1">
+                        <option value = "horror" selected = "selected">Horror</option>
+                        <option value = "psycho">Psycho</option>
+                        <option value = "krimi">Krimi</option>
+                        <option value = "doku">Doku</option>
+                        <option value = "komoedie">Komödie</option>
+                        <option value = "romanze">Romanze</option>
+                    </select>
+                </li>
+                <li>
+                    <label for = "favorit">als Favorit<br>markieren</label>
+                    <input type = "checkbox" id = "favorit" value ="filmfavorit" name = "filmfavorit"/>
+                </li>
+                <li>
+                    <label for="button"></label>
+                    <input type="submit" id = "button" value="Film eintragen">
+                </li>
+            </ul>
+        </form>
+    </body>
+</html>
