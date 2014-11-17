@@ -3,6 +3,7 @@
     <head>
         <title>Film</title>
         <link href="CSS/home.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src="JS/valid.js"></script>
         <meta charset="UTF-8"/>
     </head>	
     <body>
@@ -11,7 +12,7 @@
         <nav>
             <a href="favoriten.html" class="button">Favoriten</a>
         </nav>
-        <form action="http://martinakraus.net/immdb.php" method="get">
+        <form id="form" action="http://martinakraus.net/immdb.php" onsubmit="return validateFilm()" method="get">
             <ul>
                 <li>
                     <label for = "titel">Filmtitel</label>
