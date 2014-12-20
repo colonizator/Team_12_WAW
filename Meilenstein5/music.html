@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music</title>
+        <link href = "css/style.css" type = "text/css" rel = "stylesheet"/>
+        <script type="text/javascript" src="js/valid.js"></script>
+        <meta charset="UTF-8"/>
+    </head>	
+    <body>
+        <img src = "img/Team_12.jpg" width = "200" alt="Platzhalter für Gruppenname und / oder Logo" />
+        <h1>Music<a href="index.html">( zurück )</a></h1>
+        <nav>
+            <a href="favoriten.html" class="button">Favoriten</a>
+        </nav>
+        <form id="form" action="immdb.php" onsubmit="return validateMusic()" method="get">
+            <ul>
+                <li>
+                    <label for = "interpreter">Interpreter</label>
+                    <input type = "text" id = "interpreter" size = "40" name = "interpreter"/>
+                </li>
+                <li>
+                    <label for = "album">Albumtitel</label>
+                    <input type = "text" id = "album" size = "40" name = "albumtitel"/>
+                </li>
+                <li>
+                    <label for = "year">Erscheinungsjahr</label>
+                    <input type = "text" id = "year" size = "40" name = "musicerscheinungsjahr"/>
+                </li>
+                <li>
+                    <label for = "songs">Songs</label>
+                    <textarea  id = "songs" name = "songs" cols="30" rows="3"></textarea>
+                </li>
+                <li>
+                    <label for = "genre">Genre</label>
+                    <select name = "musicgenre" id = "genre" size = "1">
+                        <option value = "punk" selected = "selected">Punk</option>
+                        <option value = "metal">Metal</option>
+                        <option value = "pop">Pop</option>
+                        <option value = "soul">Soul</option>
+                        <option value = "hipHop">HipHop</option>
+                        <option value = "techno">Techno</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="favorit">als Favorit<br> markieren</label>
+                    <input type="checkbox" id="favorit" value ="musicfavorit" name = "musicfavorit"/>
+                </li>
+                <li>
+                    <label for="buton"></label>
+                    <input type="submit" id = "buton" value="Album eintragen">
+                </li>
+            </ul>            
+        </form>
+    </body>
+</html>
