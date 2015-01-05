@@ -2,7 +2,7 @@
 header('Content-Type: application/json');
 if (isset($_GET["action"]) && $_GET["action"] == "music") {
     try {
-        $mysqli = new mysqli("localhost", "christian", "*swordfish*", "musik");
+        $mysqli = new mysqli("localhost", "test", "1234", "musik");
         if ($mysqli->connect_error) {
             throw new Exception("Datenbankzugriff zurzeit nicht möglich.");
         }
@@ -23,7 +23,7 @@ if (isset($_GET["action"]) && $_GET["action"] == "music") {
     }
 } else {
     try {
-        $mysqli = new mysqli("localhost", "christian", "*swordfish*", "filme");
+        $mysqli = new mysqli("localhost", "test", "1234", "filme");
         if ($mysqli->connect_error) {
             throw new Exception("Datenbankzugriff zurzeit nicht möglich.");
         }

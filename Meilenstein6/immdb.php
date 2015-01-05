@@ -24,7 +24,7 @@
                 $filmgenre = read("filmgenre");
                 $filmfavorit = (isset($_GET["filmfavorit"])) ? true : false;
 
-                $mysqli = new mysqli("localhost", "christian", "*swordfish*", "filme");
+                $mysqli = new mysqli("localhost", "test", "1234", "filme");
                 if ($mysqli->connect_error) {
                     throw new Exception("Datenbankzugriff zurzeit nicht möglich.");
                 }
@@ -79,7 +79,7 @@
                 $musicgenre = read("musicgenre");
                 $musicfavorit = (isset($_GET["musicfavorit"])) ? true : false;
 
-                $mysqli = new mysqli("localhost", "christian", "*swordfish*", "musik");
+                $mysqli = new mysqli("localhost", "test", "1234", "musik");
                 if ($mysqli->connect_error) {
                     throw new Exception("Datenbankzugriff zurzeit nicht möglich.");
                 }
